@@ -1,1 +1,1 @@
-THIS IS MY JAVA SCRIPT FILE  
+java script
