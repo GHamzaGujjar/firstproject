@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>spotify - your favourite music is here</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <nav>
         <ul>
@@ -16,17 +19,49 @@
         </ul>
     </nav>
     <div class="container">
-        <h1>Best of nCS - no copyright</h1>
-        <div class="song list"></div>
+        <div class="song list">
+        <h1>Best of NCS - no copyright</h1>
+        <div>
+            <div class="songItem">
+                <img src="1.jpg" alt="1" >
+                <span>let me love you</span>
+                <span class="songlist"><span class="timestamp">05:30  <i class="far  fa-play-circle" id="masterPlay"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="1.jpg" alt="1" >
+                <span>let me love you</span>
+                <span class="songlist"><span class="timestamp">05:30  <i class="far  fa-play-circle" id="masterPlay"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="1.jpg" alt="1" >
+                <span>let me love you</span>
+                <span class="songlist"><span class="timestamp">05:30  <i class="far  fa-play-circle" id="masterPlay"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img src="1.jpg" alt="1" >
+                <span>let me love you</span>
+                <span class="songlist"><span class="timestamp">05:30  <i class="far  fa-play-circle" id="masterPlay"></i></span></span>
+            </div>
+        </div>
+        </div>
         <div class="song banner"></div>
     </div>
     <div class="bottom">
-        <input type="range" name="range" id="Myprogressbar" min="0" max="100" >
-    </div>
+        <input type="range" name="range" id="myprogressbar" min="0" max="100">
+    
     <div class="icons">
+        <i class="fas fa-3x fa-step-backward" id="previous"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward" id="next"></i>
 
     </div>
+    <div class="songinfo">
+        <img src="playing.gif" width="45px" alt="" >let me love you
+    </div>
+</div>
+    <script src="https://kit.fontawesome.com/af321e4e04.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
